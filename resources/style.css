@@ -71,18 +71,43 @@ div {
 	border: 1px solid black;
 }
 
-#mainStory {
-	display: flex;
-    flex-direction: column;
+#mainStory {	
 	background-image: url(./images/img-story-main.png);
 	height: 300px;
 	text-align: left;
 }
 
-#mainStory span {
+.storyPic {
 	font-family: Georgia;
 	font-weight: bold;
 	font-size: 40px;
 	color: white;
 }
+
+.storyText {
+	font-family: Georgia;
+	font-size: 17px;
+	color: black;
+}
+
+#supportingStory {
+	background-image: url(./images/img-story-2.png);  
+	height: 300px;
+	text-align: center; 
+}
+
+.supportingStoryPicText {
+	font-family: Georgia;
+	font-weight: bold;
+	font-size: 30px;
+	color: white;
+}
+
+#story3 {
+	background-image: url(./images/img-story-3.png);
+	height: 300px;
+	text-align: center;
+}
+
+
 
