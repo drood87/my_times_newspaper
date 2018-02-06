@@ -5,11 +5,11 @@ body {
 header {
 	font-family: Verdana;
 	display: flex;
+	align-items: center; 
 	width: 100%;
 	height: 80px;
 	position: fixed;
-	z-index: 1;
-	align-items: center; 
+	z-index: 1;	
 	border-bottom: 1px solid black;
 	background-color: white;
 	font-size: 14px;
@@ -25,7 +25,6 @@ header {
 	display: flex;
 	align-items: center;
 	flex-grow: 1;
-	align-items: center;
 	padding-left: 25px;
 }
 
@@ -42,72 +41,112 @@ nav span {
 	padding: 20px 10px;
 }
 
-.content {
+#content {
 	display: flex;
-	margin: 0 auto 78px auto;
-	width: 1270px;
-	padding-top: 116px;
-}
-
-.column {
-	display: flex;
-	flex-direction: column;
-	margin-right: 32px;
+	font-family: "Georgia", sans-serif;
+	width: 1250px;
+	margin: 0 auto;
+	padding-top: 120px;
 }
 
 .column.large {
-	width: 630px;	
+	display: flex;
+	flex-direction: column;
+	width: 630px;
 }
 
 .column.medium {
-	width: 300px;	
+	display: flex;
+	flex-direction: column;
+	width: 300px;
+	margin-left: 20px;
 }
 
 .column.small {
-	width: 240px;	
+	display: flex;
+	flex-direction: column;
+	width: 240px;
+	margin-left: 20px;
 }
 
-div {
+/*div {
 	border: 1px solid black;
-}
+}*/
 
-#mainStory {	
+.image-mainStory {
+	display: flex;
+	font-size: 40px;
+	font-weight: bold;
+	color: white;
 	background-image: url(./images/img-story-main.png);
 	height: 300px;
-	text-align: left;
 }
 
-.storyPic {
-	font-family: Georgia;
-	font-weight: bold;
-	font-size: 40px;
-	color: white;
+.image-content {
+	background-image: url(./images/img-story-2.png);	
 }
 
-.storyText {
-	font-family: Georgia;
-	font-size: 17px;
+.image-contentTwo {
+	background-image: url(./images/img-story-3.png);	
+}
+
+.mediumPic {
+	background-image: url(./images/img-story-1.png);	
+}
+
+.stylesStories {
+	display: flex;
+	text-align: center;
+	height: 250px;
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+    margin-top: 50px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.narrative {
+	font-size: 14px;
 	color: black;
 }
 
-#supportingStory {
-	background-image: url(./images/img-story-2.png);  
-	height: 300px;
-	text-align: center; 
+.stories {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 30px;
 }
 
-.supportingStoryPicText {
-	font-family: Georgia;
+.text-content {
+	margin-right: 10px;
+}
+
+.offTopic h2 {
+	font-size: 16px;
 	font-weight: bold;
-	font-size: 30px;
-	color: white;
-}
-
-#story3 {
-	background-image: url(./images/img-story-3.png);
-	height: 300px;
 	text-align: center;
 }
+
+.links {
+	background-color: WhiteSmoke;
+	font-family: Verdana;
+	font-size: 12px;
+	color: DimGray;
+}
+
+.links p {
+	margin: 0;
+	border-bottom: 1px solid black;
+	padding: 10px 0 10px 0;
+}
+
+
+
+
+
+
+
+
 
 
 
